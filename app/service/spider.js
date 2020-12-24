@@ -1,7 +1,6 @@
 // app/service/user.js
 const Service = require('egg').Service;
 const superagent = require('superagent');
-const { consoleLevel } = require('egg-mock');
 
 class SpiderService extends Service {
 
